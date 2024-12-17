@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.11.4 on win32)" generated="2024-12-12T16:36:24.239158" rpa="false" schemaversion="5">
+<suite id="s1" name="Signup" source="C:\QAx\projects\walkdog-robot\signup.robot">
+<test id="s1-t1" name="Deve poder cadastrar um novo dog walker" line="8">
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2024-12-12T16:36:24.410847" level="INFO">${name} = Octavio Mangabeira</msg>
+<var>${name}</var>
+<arg>Octavio Mangabeira</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2024-12-12T16:36:24.410847" elapsed="0.000000"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2024-12-12T16:36:24.411849" level="INFO">${email} = octavio@gmail.com</msg>
+<var>${email}</var>
+<arg>octavio@gmail.com</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2024-12-12T16:36:24.411849" elapsed="0.000000"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2024-12-12T16:36:24.412833" level="INFO">${cpf} = 00000014141</msg>
+<var>${cpf}</var>
+<arg>00000014141</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2024-12-12T16:36:24.411849" elapsed="0.000984"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2024-12-12T16:36:24.412833" level="INFO">${cep} = 04534011</msg>
+<var>${cep}</var>
+<arg>04534011</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2024-12-12T16:36:24.412833" elapsed="0.000000"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2024-12-12T16:36:24.412833" level="INFO">${addressNumber} = 1000</msg>
+<var>${addressNumber}</var>
+<arg>1000</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2024-12-12T16:36:24.412833" elapsed="0.000000"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2024-12-12T16:36:24.413832" level="INFO">${addressDetails} = Apto 28</msg>
+<var>${addressDetails}</var>
+<arg>Apto 28</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2024-12-12T16:36:24.413832" elapsed="0.000000"/>
+</kw>
+<kw name="New Browser" owner="Browser">
+<msg time="2024-12-12T16:36:24.414842" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\QAx\\projects\\walkdog-robot\\logs\\browser\\traces\\temp\\d025a689-4663-4d19-a157-4935e46d25b7"}</msg>
+<msg time="2024-12-12T16:36:24.448447" level="INFO">Starting Browser process C:\Python311\Lib\site-packages\Browser\wrapper\index.js using port 51756</msg>
+<msg time="2024-12-12T16:36:24.449446" level="INFO">Node startup parameters: ['node', 'C:\\Python311\\Lib\\site-packages\\Browser\\wrapper\\index.js', '51756']</msg>
+<msg time="2024-12-12T16:36:25.739453" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\QAx\\projects\\walkdog-robot\\logs\\browser\\traces\\temp\\d025a689-4663-4d19-a157-4935e46d25b7"}</msg>
+<arg>browser=chromium</arg>
+<arg>headless=False</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2024-12-12T16:36:24.413832" elapsed="1.325621"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2024-12-12T16:36:28.163197" level="INFO">Successfully initialized new page object and opened url: https://walkdog.vercel.app/signup</msg>
+<msg time="2024-12-12T16:36:28.163197" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>https://walkdog.vercel.app/signup</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2024-12-12T16:36:25.740451" elapsed="2.422746"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2024-12-12T16:36:28.191115" level="INFO">Waited for Element with selector form h1 at state visible</msg>
+<arg>form h1</arg>
+<arg>visible</arg>
+<arg>5000</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2024-12-12T16:36:28.164197" elapsed="0.026918"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2024-12-12T16:36:28.213295" level="INFO">Text: 'Faça seu cadastro'</msg>
+<arg>form h1</arg>
+<arg>equal</arg>
+<arg>Faça seu cadastro</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2024-12-12T16:36:28.191115" elapsed="0.022180"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2024-12-12T16:36:28.214107" level="INFO">Fills the text 'Octavio Mangabeira' in the given field.</msg>
+<arg>css=input[name=name]</arg>
+<arg>${name}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2024-12-12T16:36:28.214107" elapsed="0.015106"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2024-12-12T16:36:28.230212" level="INFO">Fills the text 'octavio@gmail.com' in the given field.</msg>
+<arg>css=input[name=email]</arg>
+<arg>${email}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2024-12-12T16:36:28.230212" elapsed="0.016198"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2024-12-12T16:36:28.246410" level="INFO">Fills the text '00000014141' in the given field.</msg>
+<arg>css=input[name=cpf]</arg>
+<arg>${cpf}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2024-12-12T16:36:28.246410" elapsed="0.014991"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2024-12-12T16:36:28.262401" level="INFO">Fills the text '04534011' in the given field.</msg>
+<arg>css=input[name=cep]</arg>
+<arg>${cep}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2024-12-12T16:36:28.261401" elapsed="0.014890"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2024-12-12T16:36:28.277296" level="INFO">Fills the text '1000' in the given field.</msg>
+<arg>css=input[name=addressNumber]</arg>
+<arg>${addressNumber}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2024-12-12T16:36:28.276291" elapsed="0.016301"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2024-12-12T16:36:28.294593" level="INFO">Fills the text 'Apto 28' in the given field.</msg>
+<arg>css=input[name=addressDetails]</arg>
+<arg>${addressDetails}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2024-12-12T16:36:28.293591" elapsed="0.010532"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-12-12T16:36:38.305399" level="INFO">Slept 10 seconds.</msg>
+<arg>10</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-12-12T16:36:28.305123" elapsed="10.000276"/>
+</kw>
+<status status="PASS" start="2024-12-12T16:36:24.409850" elapsed="13.895549"/>
+</test>
+<doc>Suite de testes de cadastro de dog walker</doc>
+<status status="PASS" start="2024-12-12T16:36:24.241159" elapsed="14.117827"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Signup">Signup</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

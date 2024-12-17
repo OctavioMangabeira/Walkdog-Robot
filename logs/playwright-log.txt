@@ -1,0 +1,56 @@
+{"level":30,"time":"2024-12-12T19:36:25.060Z","pid":22104,"hostname":"Octavio-PC","msg":"Listening on 51756"}
+(node:22104) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2024-12-12T19:36:25.532Z","pid":22104,"hostname":"Octavio-PC","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2024-12-12T19:36:25.736Z","pid":22104,"hostname":"Octavio-PC","msg":"Adding browser to stack: chromium, version: 131.0.6778.33"}
+{"level":30,"time":"2024-12-12T19:36:25.737Z","pid":22104,"hostname":"Octavio-PC","msg":"End of node method newBrowser"}
+{"level":30,"time":"2024-12-12T19:36:25.737Z","pid":22104,"hostname":"Octavio-PC","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2024-12-12T19:36:25.743Z","pid":22104,"hostname":"Octavio-PC","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-12-12T19:36:25.744Z","pid":22104,"hostname":"Octavio-PC","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-12-12T19:36:25.758Z","pid":22104,"hostname":"Octavio-PC","msg":"Changed active context"}
+{"level":30,"time":"2024-12-12T19:36:25.904Z","pid":22104,"hostname":"Octavio-PC","msg":"Video path: undefined"}
+{"level":30,"time":"2024-12-12T19:36:25.904Z","pid":22104,"hostname":"Octavio-PC","msg":"Changed active page"}
+{"level":30,"time":"2024-12-12T19:36:28.162Z","pid":22104,"hostname":"Octavio-PC","msg":"End of node method newPage"}
+{"level":30,"time":"2024-12-12T19:36:28.166Z","pid":22104,"hostname":"Octavio-PC","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2024-12-12T19:36:28.166Z","pid":22104,"hostname":"Octavio-PC","msg":"Strict mode is enabled, find Locator with form h1 in page."}
+{"level":30,"time":"2024-12-12T19:36:28.190Z","pid":22104,"hostname":"Octavio-PC","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2024-12-12T19:36:28.193Z","pid":22104,"hostname":"Octavio-PC","msg":"Start of node method getText"}
+{"level":30,"time":"2024-12-12T19:36:28.194Z","pid":22104,"hostname":"Octavio-PC","msg":"Strict mode is enabled, find Locator with form h1 in page."}
+{"level":30,"time":"2024-12-12T19:36:28.212Z","pid":22104,"hostname":"Octavio-PC","msg":"Retrieved text for element form h1 containing Faça seu cadastro"}
+{"level":30,"time":"2024-12-12T19:36:28.212Z","pid":22104,"hostname":"Octavio-PC","msg":"End of node method getText"}
+{"level":30,"time":"2024-12-12T19:36:28.216Z","pid":22104,"hostname":"Octavio-PC","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-12T19:36:28.216Z","pid":22104,"hostname":"Octavio-PC","msg":"Strict mode is enabled, find Locator with css=input[name=name] in page."}
+{"level":30,"time":"2024-12-12T19:36:28.228Z","pid":22104,"hostname":"Octavio-PC","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-12T19:36:28.232Z","pid":22104,"hostname":"Octavio-PC","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-12T19:36:28.232Z","pid":22104,"hostname":"Octavio-PC","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
+{"level":30,"time":"2024-12-12T19:36:28.244Z","pid":22104,"hostname":"Octavio-PC","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-12T19:36:28.248Z","pid":22104,"hostname":"Octavio-PC","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-12T19:36:28.248Z","pid":22104,"hostname":"Octavio-PC","msg":"Strict mode is enabled, find Locator with css=input[name=cpf] in page."}
+{"level":30,"time":"2024-12-12T19:36:28.260Z","pid":22104,"hostname":"Octavio-PC","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-12T19:36:28.263Z","pid":22104,"hostname":"Octavio-PC","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-12T19:36:28.263Z","pid":22104,"hostname":"Octavio-PC","msg":"Strict mode is enabled, find Locator with css=input[name=cep] in page."}
+{"level":30,"time":"2024-12-12T19:36:28.274Z","pid":22104,"hostname":"Octavio-PC","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-12T19:36:28.278Z","pid":22104,"hostname":"Octavio-PC","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-12T19:36:28.278Z","pid":22104,"hostname":"Octavio-PC","msg":"Strict mode is enabled, find Locator with css=input[name=addressNumber] in page."}
+{"level":30,"time":"2024-12-12T19:36:28.291Z","pid":22104,"hostname":"Octavio-PC","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-12T19:36:28.295Z","pid":22104,"hostname":"Octavio-PC","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-12T19:36:28.295Z","pid":22104,"hostname":"Octavio-PC","msg":"Strict mode is enabled, find Locator with css=input[name=addressDetails] in page."}
+{"level":30,"time":"2024-12-12T19:36:28.303Z","pid":22104,"hostname":"Octavio-PC","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-12T19:36:38.310Z","pid":22104,"hostname":"Octavio-PC","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-12T19:36:38.313Z","pid":22104,"hostname":"Octavio-PC","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-12T19:36:38.314Z","pid":22104,"hostname":"Octavio-PC","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-12T19:36:38.316Z","pid":22104,"hostname":"Octavio-PC","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-12T19:36:38.317Z","pid":22104,"hostname":"Octavio-PC","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-12T19:36:38.319Z","pid":22104,"hostname":"Octavio-PC","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-12T19:36:38.321Z","pid":22104,"hostname":"Octavio-PC","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-12T19:36:38.323Z","pid":22104,"hostname":"Octavio-PC","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-12T19:36:38.326Z","pid":22104,"hostname":"Octavio-PC","msg":"Changed active context"}
+{"level":30,"time":"2024-12-12T19:36:38.326Z","pid":22104,"hostname":"Octavio-PC","msg":"Changing current active page: page=1dd046cf-d7e7-404b-ae65-e40821a60a03"}
+{"level":30,"time":"2024-12-12T19:36:38.326Z","pid":22104,"hostname":"Octavio-PC","msg":"Changed active page"}
+{"level":30,"time":"2024-12-12T19:36:38.333Z","pid":22104,"hostname":"Octavio-PC","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-12-12T19:36:38.347Z","pid":22104,"hostname":"Octavio-PC","msg":"Removed page=d4dc5cac-f9ff-4932-aa74-a846d2d2143a from context=4056a014-c675-44bb-88b6-aee7fdb0aba9 page stack"}
+{"level":30,"time":"2024-12-12T19:36:38.357Z","pid":22104,"hostname":"Octavio-PC","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-12-12T19:36:38.364Z","pid":22104,"hostname":"Octavio-PC","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-12T19:36:38.364Z","pid":22104,"hostname":"Octavio-PC","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-12T19:36:38.410Z","pid":22104,"hostname":"Octavio-PC","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2024-12-12T19:36:38.550Z","pid":22104,"hostname":"Octavio-PC","msg":"End of node method closeAllBrowsers"}
